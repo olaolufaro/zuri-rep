@@ -1,0 +1,443 @@
+body{
+    background: rgb(255, 255, 255);
+}
+.main{
+    align-items: center;
+    display: flex;
+    position:sticky;
+    top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: rgb(255, 253, 254);
+
+}
+.hea ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.hea ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+.hea ul li a{
+    color: rgb(31, 29, 29);
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    align-items: center;
+    display: flex;
+}
+.hea{
+    flex: 1;
+    text-align: right;
+}
+#hh img{
+    clip-path: circle();
+    width: 50px;
+    background: rgb(253, 76, 76);
+    padding: 8px 20px;
+}
+#hh{
+    display: flex;
+    align-items: center;
+}
+
+#hh ul li{
+    list-style-type: none;
+}
+#hh ul{
+    display: inline-block;
+    background: rgb(253, 76, 76);
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+#hh ul li a{
+    color: rgb(223, 221, 221);
+    font-size: 20px;
+}
+.section1a img{
+    width: 320px;
+    padding-top: 20px;
+}
+.section1c img{
+    width: 320px;
+    padding-top: 20px;
+}
+.section1{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.section1b h1{
+    text-align: center;
+    font-size: 50px;
+}
+.section1b h3{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(255, 96, 96);
+    padding-top: 20px;
+}
+.section1b svg{
+    align-content: center;
+}
+.section1b h2{
+    font-size: 17px;
+    text-align: center;
+}
+.section{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+.he h2 {
+    margin-top: 50px;
+}
+.he h2 a{
+    background: rgb(241, 50, 50);
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: aliceblue;
+}
+.section2c h1{
+    font-size: 23px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(43, 42, 42);
+    text-align: right;
+    line-height: 29px;
+    font-weight: lighter;
+}
+.section2a h1{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(43, 42, 42);
+}
+.section2{
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.section3a h1{
+    font-size: 37px;
+    font-family: sans-serif;
+    color: rgb(43, 42, 42);
+}
+.section3a h2{
+    font-size: 29px;
+    color: rgba(235, 63, 63, 0.925);
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.section3{
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding-right: 100px;
+}
+.section3a{
+    flex-basis: 50%;
+}
+.extra svg{
+    text-align: center;
+    padding-left: 400px;
+}
+.section4{
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 70px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    
+}
+.section4a{
+    background: rgb(255, 255, 255);
+    padding: 25px 25px 25px 25px;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 300px;
+    margin-right: 10px;
+    transition:0.5s;
+    margin-bottom: 50px;
+    box-shadow: 20px 30px 50px rgb(252, 235, 235);
+}
+.section4a h1{
+    font-size: 60px;
+}
+.section4a h2{
+    font-size: 40px;
+}
+.section4a h3{
+    font-size: 20px;
+}
+.section4a:hover{
+    margin-top: 0;
+    margin-bottom: 70px;
+    color: rgb(202, 94, 94);
+}
+.section5{
+    background: rgb(233, 70, 70);
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.section5a{
+    margin-top: 30px;
+
+}
+.section5a h1{
+    font-size: 45px;
+    color: white;
+    font-family: sans-serif;
+}
+.section5a h3{
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+}
+.section5a a{
+    background: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: rgb(233, 70, 70);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.section5c{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    background: rgb(233, 70, 70);
+}
+.dd h4{
+    background: rgb(233, 70, 70);
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid aliceblue;
+    font-size: 20px;
+    margin-right: 10px;
+    color: white;
+    font-weight: lighter;
+}
+.df h4{
+    background: rgb(233, 70, 70);
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid aliceblue;
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+}
+.section5d{
+    background: rgb(233, 70, 70);
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section6{
+    padding-left: 45px;
+}
+.section6 h2{
+    color: rgb(233, 70, 70);
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+}
+.section6 h1{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+}
+.section6a{
+    text-align: center;
+}
+.section6b{
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+.section6c{
+    background: rgb(255, 255, 255);
+    padding: 25px 25px 25px 25px;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 300px;
+    margin-right: 10px;
+    transition:0.5s;
+    margin-bottom: 50px;
+    box-shadow: 20px 30px 50px rgb(252, 235, 235);
+}
+.section6c h1{
+    font-size: 25px;
+    color: rgb(43, 42, 42);
+}
+.section6c p{
+    font-size: 18px;
+    color: rgb(46, 45, 45);
+}
+.section6d a{
+    color: white;
+    background: red;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 20px;
+}
+.section6d{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.section7{
+    text-align: center;
+    padding-top: 60px;
+    margin-top: 90px;
+}
+.section7 h1{
+    color: black;
+    font-family: sans-serif;
+    font-size: 35px;
+}
+.section7 h2{
+    color: rgb(233, 70, 70);
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.section8{
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+.section8a{
+    background: rgb(27, 27, 27);
+    padding: 25px 25px 25px 25px;
+    border-radius: 70px;
+    margin-top: 30px;
+    width: 35%;
+    margin-right: 10px;
+    transition:0.5s;
+    margin-bottom: 90px;
+    box-shadow: 20px 30px 50px rgb(252, 235, 235);
+    margin: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+}
+.section8a h1{
+    color: aliceblue;
+}
+.section8a h2{
+    color: aliceblue;
+}
+.section8a p{
+    color: aliceblue;
+}
+.section8a li{
+    color: aliceblue;
+
+}
+.section8a ul{
+    color: aliceblue;
+}
+.section9a{
+    text-align: center;
+    
+}
+.section9a h3{
+    color:aliceblue;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.section9a h1{
+    color: aliceblue;
+    font-size: 60px;
+}
+.section9a a{
+    color: rgb(241, 32, 32);
+    font-size: 20px;
+    background: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.section9{
+    background: rgb(226, 28, 28);
+    border-radius: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.section9b{
+    text-align: right;
+    padding-top: 20px;
+}
+.se img{
+    width: 130px;
+    padding-left: 20px;
+}
+.last{
+    align-items: center;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 251, 251);
+    font-family: "Regular", sans-serif;
+    padding-top: 50px;
+    height: 40px;
+}
+
+.var{
+    flex: 1;
+    text-align: right;
+    color: rgb(252, 21, 21);
+}
+
+.var i{
+    margin-right: 15px;
+    color: rgb(207, 10, 10);
+    
+    padding: 2px 8px;
+}
+.he h3{
+    color: rgb(19, 18, 18);
+}
+.va{
+    color: rgb(20, 20, 19);
+    text-align: right;
+    flex: 1;
+}
+i{
+    color: black;
+}
+.va a{
+    color: black;
+}
